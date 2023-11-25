@@ -52,7 +52,7 @@ const About = () => {
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
             I've worked with all sorts of projects, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            teaming up with smart people.
           </p>
         </div>
 
