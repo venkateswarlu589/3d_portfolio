@@ -8,7 +8,7 @@ const Loader = () => {
 
       </div>
     </Html>
-  )
+  )   
 }
 
 export default Loader

@@ -1,4 +1,4 @@
-
+import {meta,shopify,starbucks,tesla} from '../assets/images';
 import {
     contact,
     css,
@@ -17,7 +17,7 @@ import {
 } from "../assets/icons";
 
 export const skills = [
-    {
+    {   id : 1,
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
@@ -126,28 +126,31 @@ export const socialLinks = [
 
 export const projects = [
     
-    {
+    {   
         iconUrl: github,
         theme: 'btn-back-red',
         name: 'Wikipedia Clone using Rest API',
         description: 'Conceptualized and developed a Wikipedia clone, providing a user-friendly platform for information retrieval and collaborative content creation.',
         link: 'https://github.com/venkateswarlu589/Wikipedia-application-using-Rest-Api',
     },
-    {
+    {   
+        
         iconUrl: github,
         theme: 'btn-back-green',
         name: 'Spotify Clone',
         description: 'Developed Spotify clone as a personal project,the popular music streaming platform.Designed and implemented an intuitive user interface for seamless navigation and an engaging user experience.',
         link: 'https://github.com/venkateswarlu589/Spotify-Clone',
     },
-    {
+    {   
+        
         iconUrl: github,
         theme: 'btn-back-blue',
         name: 'Number Guessing Game ',
         description: 'Guess the number between 1 - 100 . it Generates a Random Number between 1 - 100 .it specifies Description for each wrong submission Whether you submitted the correct number or not.',
         link: 'https://github.com/venkateswarlu589/Number-GuessingGame-UsingJs',
     },
-    {
+    {   
+        
         iconUrl: github,
         theme: 'btn-back-pink',
         name: 'DataStructures and Algorithms',
